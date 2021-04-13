@@ -546,14 +546,18 @@
     }
 
     footer{
-        bottom:0px;
-        position:absolute;
-        z-index:1;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 16%;
+        position: relative;
+        z-index:-1;
         width:100%;
+        height: min-content;
     }
 
     .container3{
-        margin-left:20px;
+        margin-left:400px;
     }
 
     label {
